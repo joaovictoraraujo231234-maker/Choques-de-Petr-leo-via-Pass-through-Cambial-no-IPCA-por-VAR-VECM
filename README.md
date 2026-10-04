@@ -2,8 +2,6 @@
 
 Este repositório documenta o desenvolvimento de uma aplicação econométrica em Python para análise de mecanismos de transmissão de choques externos. O projeto utiliza técnicas de séries temporais multivariadas (VAR/VECM) para compreender o impacto das flutuações do preço do barril de petróleo (Brent) e da taxa de câmbio (BRL/USD) sobre a inflação brasileira (IPCA), focando na vulnerabilidade estrutural da economia em cenários de estresse geopolítico e cambial.
 
-<img width="1340" height="800" alt="newplot (8)" src="https://github.com/user-attachments/assets/311886c1-8029-49c6-ab91-84ba680946ee" />
-
 ## 1. O Problema da Modelagem de Choques Tradicional
 Análises macroeconômicas superficiais frequentemente ignoram a endogeneidade entre variáveis ou falham ao não isolar decisões políticas artificiais da dinâmica natural de mercado. Este projeto rejeita regressões lineares simples e univariadas, exigindo um processo robusto de modelagem *step-by-step* que captura a retroalimentação temporal entre inflação, câmbio e commodities, adequado aos padrões institucionais de pesquisa econômica.
 
